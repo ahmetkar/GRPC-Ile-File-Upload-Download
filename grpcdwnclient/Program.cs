@@ -13,7 +13,7 @@ namespace grpcdwnclient {
 
             var client = new FileService.FileServiceClient(channel);
             
-            string downloadpath = @"C:\Users\ahmet\Desktop\grpcfile\grpcdwnclient\downloads";
+            string downloadpath = @"..\grpcfile\grpcdwnclient\downloads";
 
             var fileInfo = new grpcFileTransportDownloadClient.FileInfo {
                 FileName ="deneme2",
