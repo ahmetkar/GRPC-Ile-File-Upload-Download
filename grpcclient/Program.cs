@@ -12,7 +12,7 @@ namespace grpcclient {
             var channel = GrpcChannel.ForAddress("http://localhost:5081");
 
             var client = new FileService.FileServiceClient(channel);
-            string file = @"C:\Users\ahmet\Desktop\grpcfile\grpcclient\deneme2.mp4";
+            string file = @"..\grpcfile\grpclient\";
             using FileStream stream = new FileStream(file,FileMode.Open);
 
             var content = new BytesContent {
