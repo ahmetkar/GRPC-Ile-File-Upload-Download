@@ -1,0 +1,3 @@
+obj\Debug\net9.0\Protos/FileTransport.cs \
+obj\Debug\net9.0\Protos/FileTransportGrpc.cs: C:/Users/ahmet/.nuget/packages/grpc.tools/2.64.0/build/native/include/google/protobuf/empty.proto\
+ Protos/FileTransport.proto

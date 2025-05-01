@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "pNyqYSZYBLZK5J2XwIRJIXORk0J3dsA16tQ9N+pNRvc=",
+  "Source": "grpcserver",
+  "BasePath": "_content/grpcserver",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "grpcserver\\wwwroot",
+      "Source": "grpcserver",
+      "ContentRoot": "C:\\Users\\ahmet\\Desktop\\grpcfile\\grpcserver\\wwwroot\\",
+      "BasePath": "_content/grpcserver",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ahmet\\Desktop\\grpcfile\\grpcserver\\wwwroot\\files\\deneme.mp4",
+      "SourceId": "grpcserver",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ahmet\\Desktop\\grpcfile\\grpcserver\\wwwroot\\",
+      "BasePath": "_content/grpcserver",
+      "RelativePath": "files/deneme#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ekxkgbw2t",
+      "Integrity": "gWkGuJwho+cW/s4ysRrleBEfp7orb0SPzI6Qw3pTuiQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\deneme.mp4"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "files/deneme.9ekxkgbw2t.mp4",
+      "AssetFile": "C:\\Users\\ahmet\\Desktop\\grpcfile\\grpcserver\\wwwroot\\files\\deneme.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12964032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWkGuJwho+cW/s4ysRrleBEfp7orb0SPzI6Qw3pTuiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 21:53:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9ekxkgbw2t"
+        },
+        {
+          "Name": "label",
+          "Value": "files/deneme.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWkGuJwho+cW/s4ysRrleBEfp7orb0SPzI6Qw3pTuiQ="
+        }
+      ]
+    },
+    {
+      "Route": "files/deneme.mp4",
+      "AssetFile": "C:\\Users\\ahmet\\Desktop\\grpcfile\\grpcserver\\wwwroot\\files\\deneme.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12964032"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWkGuJwho+cW/s4ysRrleBEfp7orb0SPzI6Qw3pTuiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 21:53:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWkGuJwho+cW/s4ysRrleBEfp7orb0SPzI6Qw3pTuiQ="
+        }
+      ]
+    }
+  ]
+}
